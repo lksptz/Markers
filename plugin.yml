@@ -1,0 +1,13 @@
+name: Markers
+main: me.putz.MarkerPlugin.Main
+version: 1.0
+description: This plugin can be used to set glowing markers.
+api-version: 1.14
+author: Lukii4
+commands:
+  setmarker:
+    description: Sets a glowing marker slime at current location
+    usage: "Usage: /setmarker [label]"
+  removemarker:
+    description: Toggles removing markers using left-/right-click
+    usage: "Usage: /removemarker [on|off]"
