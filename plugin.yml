@@ -1,5 +1,5 @@
 name: Markers
-main: me.putz.MarkerPlugin.Main
+main: me.putz.Markers.Main
 version: 1.0
 description: This plugin can be used to set glowing markers.
 api-version: 1.14

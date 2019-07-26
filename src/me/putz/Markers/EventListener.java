@@ -1,4 +1,4 @@
-package me.putz.MarkerPlugin;
+package me.putz.Markers;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
