@@ -46,7 +46,6 @@ public class CommandSetMarker implements CommandExecutor{
 		marker.setAI(false);
 		PotionEffect pe = new PotionEffect(PotionEffectType.GLOWING, Integer.MAX_VALUE, 1, false, false, false);
 		marker.addPotionEffect(pe);
-		marker.setInvulnerable(true);
 		marker.setLootTable(LootTables.EMPTY.getLootTable());
 		marker.setMetadata("ismarker", new FixedMetadataValue(Main.getInstance(), 0));
 		marker.setSize(1);

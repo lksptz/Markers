@@ -23,9 +23,11 @@ public class EventListener implements Listener {
 	
 	@EventHandler
 	public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {
-		if (event.getEntity().hasMetadata("ismarker")) {
-			if (event.getDamager().hasMetadata("removemarker")) {
-				event.getEntity().remove();
+		Entity e = event.getEntity();
+		Player pl = (Player) event.getDamager();
+		if (e.hasMetadata("ismarker")) {
+			if (pl.hasMetadata("removemarker")) {
+				e.remove();
 			} else {
 				event.setCancelled(true);
 			}
